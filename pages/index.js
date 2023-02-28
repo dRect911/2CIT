@@ -17,17 +17,45 @@ export default function Home() {
       <main className="snap-mandatory snap-y">
 
         {/* hero section */}
-        <div id="home" className="w-full h-screen snap-center snap-always " >
+        <div id="home" className="w-full h-screen snap-center snap-always flex sm:flex-wrap lg:flex-nowrap justify-between items-center md:gap-[20px] px-4 text-center md:text-left lg:px-[100px] " >
+
+          {/* headline div */}
+          <div className=" w-[800px] transition-all" >
+            {/* lg:max-w-[600px] xl:max-w-none xl:min-w-[600px] */}
+            <div>
+
+              <h1 className="font-semibold text-[36px] md:text-[36px] xl:text-[48px] transition-all" >
+                Medium length display headline
+              </h1>
+
+              <p className="text-[16px] md:text-[20px] xl:text-[22px] mt-[10px] text-primary-dark transition-all " >
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+              <button className="bg-primary text-white border-2 border-primary hover:bg-white hover:text-primary hover:translate-x-2 px-[24px] py-[6px] mt-[30px] lg:text-[20px] font-bold rounded-full transition-all " >
+                Action    {'>'}
+        
+              </button>
+
+            </div>
+          </div>
+
+          {/* image here */}
+
+          {/* <div className=" hidden lg:flex lg:h-[400px] xl:shrink-0 xl:h-[500px] transition-all" /> */}
+          <div className=" w-1/2 transition-all" />
 
         </div>
+        
         {/* hero section */}
         <div id="section1" className="w-full h-screen snap-center snap-always bg-primary-light " >
 
         </div>
+        
         {/* hero section */}
         <div id="section2" className="w-full h-screen snap-center snap-always " >
 
         </div>
+        
         {/* hero section */}
         <div id="section3" className="w-full h-screen snap-center snap-always bg-secondary-light " >
 
