@@ -46,13 +46,15 @@ export default function Home() {
           {/* <div className=" hidden lg:flex lg:h-[400px] xl:shrink-0 xl:h-[500px] transition-all" /> */}
           <div className=" w-1/2 transition-all" />
 
-          <img src="/meca-industrielle-1.jpg" className="absolute top-[40vh] -right-[15vw] h-[80vh] rounded-3xl ring-4 ring-offset-4 ring-secondary " />
+          <img src="/meca-industrielle-1.jpg" className="absolute top-[40vh] left-[55vw] h-[90vh] rounded-3xl ring-4 ring-offset-4 ring-secondary " />
 
         </div>
         
         {/* serrvices section */}
-        <div id="section1" className="w-full h-screen snap-center snap-always bg-primary-light " >
-
+        <div id="section1" className="w-full h-screen snap-center snap-always bg-light px-4 lg:px-[100px] pt-20" >
+            <h1 className="text-secondary w-1/2  font-semibold text-[36px] md:text-[36px] xl:text-[52px] transition-all uppercase" >
+              Nos services
+            </h1>
         </div>
         
         {/* hero section */}
