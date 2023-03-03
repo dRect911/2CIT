@@ -18,7 +18,7 @@ const Navbar = ( {currentSection, setCurrentSection} ) => {
         <div className="flex gap-6 items-center font-normal text-[18px] " >
             <a href="#home" className="text-dark hover:text-primary-dark transition-all cursor-pointer "  >Accueil</a>
             <a href="#section1" className="text-dark hover:text-primary-dark transition-all cursor-pointer " >Nos services</a>
-            <a href="#section2" className="text-dark hover:text-primary-dark transition-all cursor-pointer " >Nos domaines</a>
+            <a href="#section2" className="text-dark hover:text-primary-dark transition-all cursor-pointer " >Section 2</a>
             <a href="#section3" className="text-dark hover:text-primary-dark transition-all cursor-pointer " >Section 3</a>
             <a href="#section4" className="text-dark hover:text-primary-dark transition-all cursor-pointer " onClick={testLog} >Contacts</a>
 

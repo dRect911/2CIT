@@ -14,9 +14,7 @@ export default function Document() {
 
   return (
     <Html lang="en" className="scroll-smooth">
-      <Head>
-        <meta name="description" content="Découvrez le Centre de Conception et d'Innovation Technologique. 2CIT dispose d'un personnel composé d'ingénieurs et de techniciens ayant fait leurs preuves dans diverses entreprises de la place." />
-      </Head>
+      <Head />
       <body className="w-full relative" >
         <Navbar currentSection={currentSection} setCurrentSection={setCurrentSection} />
         <Main />
