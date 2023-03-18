@@ -15,7 +15,7 @@ export default function Document() {
   return (
     <Html lang="en" className="scroll-smooth">
       <Head />
-      <body className="w-full relative" >
+      <body className="w-full relative scrollbar-hide" >
         <Navbar currentSection={currentSection} setCurrentSection={setCurrentSection} />
         <Main />
         <NextScript />
